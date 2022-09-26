@@ -1,0 +1,9 @@
+const myName = "Hi i am Sonia";
+const letters = myName.split(" ");
+consle.log (letters);
+for ( i=0 i<letters i++ )
+{
+letters[i] = letters[i][0].toUpperCase()+letters[i].substring(1);
+}
+const word= letters.join(" ");
+Console.log(word);
